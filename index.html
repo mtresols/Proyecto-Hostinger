@@ -11,32 +11,37 @@
 
 <body>
 
-    <header>
-        <div class="header-izquierdo">*/
-            <a href=""><img src="./hostinger.png"></a>
-            <nav class="nav-header">
-                <ol style="list-style-type: none;">
+    <header class="header">
+        <div class="header-izquierdo">
+            <div class="logo">
+			<img src="./img/hostinger.png"></img>
+			</div>
+            <nav class="nav">
+                <ul style="list-style-type: none;">
                     <li> Precios </li>
-                    <li> Servicios </li>
-                    <li> Explorar </li>
-                    <li> Soporte </li>
-                    <li> n8 autoalojado </li>
-                </ol>
+                    <li> Servicios <i class="bi bi-chevron-down"></i></li>
+                    <li> Explorar <i class="bi bi-chevron-down"></i></li>
+                    <li> Soporte <i class="bi bi-chevron-down"></i></li>
+                    <li> n8 autoalojado </i></li>
+                </ul>
             </nav>
         </div>
+        
+        
 
         <div class="header-derecho">
-            <ol style="list-style-type: none;">
-                <li><a><img src="./bandera.png"></a>Español</li>
-                <li><a href="">Mi cuenta</li>
-            </ol>
+			<div class="lang">
+            <img src="./img/bandera.png" alt="bandera"></img>
+			<span><a href="">Español</a></span>
+			</div>
+			<button class="mi-cuenta">Mi cuenta</button>
         </div>
     </header>
 
 
 
     <main>
-        <section class="hero">
+        <section class="hero" bg-neutral-100>
             <div class="hero-content">
                 <h2 class="carta-epigrafe">Hasta 72% de descuento en hosting web</h2>
                 <h1 class="carta-titulo">Seguridad. Rapidez. Lo que tu web se merece</h1>
@@ -56,7 +61,7 @@
                     <i class="bi bi-star-fill"></i>
                 </div>
                 <div class="section-hero-imagen">
-                    <img src="" alt="">
+                    <img src="./img/hero.avif" alt="hero">
                 </div>
             </div>
         </section>
